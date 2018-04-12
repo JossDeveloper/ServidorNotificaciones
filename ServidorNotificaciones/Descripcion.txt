@@ -1,0 +1,8 @@
+Componente desarrollado en lenguaje de programacion Java, consta de la apertura de un puerto en el servidor por medio de un socket. De esta forma se recibe una cadena de caracteres por TCP/IP para luego redireccionarlo a un servicio web que procesará esta información.
+
+El componente creado se empaqueta en un .jar
+La ejecución de este componente se realiza por comandos en terminal 
+(java -jar ServidorNotificaciones.jar).
+
+Precisa de un archivo properties en el cual se configura el hostname del servidor donde se aloja el servicio web a consumir.
+Precisa de la libreria .jar cliente del servicio web y del log4j.jar
